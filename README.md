@@ -1,11 +1,25 @@
 Simple tool to gather your running servers activities
 
-## Installing & Running
+## Installing
 
-    gem install sys-proctable
     git clone git@github.com:installero/spire_monitor.git
     cd spire_monitor
+
+## Running daemon
+
+    gem install sys-proctable
     ruby daemon.rb start
+
+## Running server
+
+    gem install mongrel-soap4r
+    ruby server.rb
+
+## Running client
+
+    gem install soap4r
+    ruby client.rb
+
 
 ## Configuring
 
